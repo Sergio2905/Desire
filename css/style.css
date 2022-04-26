@@ -1645,12 +1645,12 @@ button.swiper-pagination-bullet {
      object-fit: cover;
 }
 
-.video {
+.articles__video .video__content {
   position: relative;
   padding-bottom: 56%;
 }
 
-.video video {
+.articles__video .video__content video {
   position: absolute;
   top: 0;
   left: 0;
@@ -1660,7 +1660,7 @@ button.swiper-pagination-bullet {
      object-fit: cover;
 }
 
-.video:hover .video__btns {
+.articles__video .video__content:hover .video__btns {
   opacity: 1;
 }
 
